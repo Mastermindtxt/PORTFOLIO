@@ -154,7 +154,6 @@ function createTechWheel(techs) {
 
     const orb = document.createElement("div");
     orb.className = "tech-orb orbrotate";
-    orb.style.border = "2px solid red"
     orb.style.left = `calc(50% + ${x}px)`;
     orb.style.top = `calc(50% + ${y}px)`;
     orb.style.transform = `translate(-50%, -50%)`;
@@ -215,7 +214,6 @@ closeSideMenu.addEventListener("click", () => {
   sideMenu.classList.remove("active");
   overlay.classList.remove("active");
 });
-
 
 
 

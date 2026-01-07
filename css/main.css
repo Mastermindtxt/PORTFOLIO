@@ -212,7 +212,7 @@ header {
   border-radius: 50px;
   cursor: pointer;
   position: relative;
-  border: 1px solid var(--glass-border);
+  border: 1px solid var(--dark);
 }
 
 .theme-toggle::before {
@@ -752,7 +752,7 @@ header {
   transition: all 0.3s ease;
   transform-origin: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
   z-index: 2;
 }
 
@@ -787,7 +787,7 @@ header {
   transform: translateX(-50%) translateY(-10px);
 }
 
-.fab, .fas {
+.icon {
   animation: rotate-orb 60s linear infinite;
 }
 .orbrotate {
@@ -912,6 +912,7 @@ footer {
   padding: 80px 0 30px;
   background: var(--dark);
   color: white;
+  background-color: #000;
   position: relative;
   overflow: hidden;
 }
